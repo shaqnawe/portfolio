@@ -1,0 +1,148 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'normalize';
+
+$border: #E9E9E9;
+$dark: #424652;
+$highlight: #8bc6db;
+$light: 9a9da4;
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+#main-nav {
+	padding: 2.5em 5%;
+	border-bottom: 1px solid #E9E9E9;
+	background: #93edc7;
+	.name {
+		float: left;
+		&:hover {color: #FCECAE;}
+		font-weight: 700;
+		font-size: 1em;
+		letter-spacing: 1.5px;
+		color: $dark;
+		text-transform: uppercase;
+		border: 1.3px outset $border;
+		text-decoration: none;
+	}
+
+	nav {
+		float: right;
+		padding-top: 0.4rem;
+		a {
+		color: $dark;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin: 0 1rem;
+		font-size: 1rem;
+			&:hover {color: #FCECAE;}
+		}
+	}
+}
+
+.col-1 {
+	float: left;
+	width: 45%;
+	padding: 0 5% 0 2.5%;
+}
+
+.col-2 {
+	float: right;
+	width: 45%;
+	padding: 0 5% 0 2.5%;
+}
+
+.homepage_content {
+	
+	padding-bottom: 585px;
+	h2 {
+		font-size: 1.5rem;
+	}
+	text-transform: uppercase;
+	
+	hr {
+	width: 5em;
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 2px solid #93edc7;
+	margin: 1rem 0;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		font-weight: 400;
+		margin-bottom: .5em;
+	}
+	.date {
+	font-size: .8em;
+	margin-bottom: 2em;
+	margin-color: $light;
+	}
+}
+
+.about {
+	padding: 0 7.5% 0 0;
+		a {
+			color: $highlight;
+			font-weight: 400;
+		}
+	}
+
+#main_footer {
+	border-top: 5px solid #93edc7;
+	.copyright {
+		padding: 25px 15px 4px 15px;
+		float: left;
+		font-size: .9em;
+		margin: 0;
+	}
+	nav {
+		float: right;
+		i {
+			color: black;
+			margin-left: 1em;
+			padding-top: 1.7em;
+			&:hover {color: #93edc7;}
+		}
+	}
+}
+
+.fa {
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-twitter {
+  background: #FCECAE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #FCECAE;
+  color: white;
+}
+
+.fa-instagram {
+	background: #FCECAE;
+  	color: white;
+}
