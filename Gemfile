@@ -8,8 +8,8 @@ gem 'mail_form', '~> 1.7', '>= 1.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
-# Use postgresql as the database for Active Record
-gem 'pg'
+# Use sqlite3 as the database for Active Record
+#gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -63,3 +63,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
