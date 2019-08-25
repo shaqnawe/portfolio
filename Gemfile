@@ -11,7 +11,7 @@ gem 'rails', '~> 5.2.1'
 
 # Use postgresql as the database for Active Record in Production
 group :production do
-  gem 'pg'
+gem 'pg', '~> 1.1', '>= 1.1.4'
 end
 # Use sqlite3 as the database for Active Record in development
 group :development do
