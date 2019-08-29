@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+get '/index' => 'welcome#index'
 get 'welcome/index'
 get 'contacts/new'
 get 'articles/articles'
