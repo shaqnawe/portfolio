@@ -10,7 +10,6 @@ gem 'mail_form', '~> 1.7', '>= 1.7.1'
 gem 'rails', '~> 5.2.1'
 
 gem 'sassc'
-gem 'sass-rails'
 
 # Use postgresql as the database for Active Record in Production
 group :production do
