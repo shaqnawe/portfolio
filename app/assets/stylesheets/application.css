@@ -14,7 +14,7 @@
  *= require_self
  */
 
-@import 'normalize';
+@import 'normalize.scss';
 @import 'welcome';
 
 html {
