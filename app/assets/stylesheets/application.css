@@ -14,11 +14,11 @@
  *= require_self
  */
 
-@import 'normalize.scss';
+@import 'normalize';
 @import 'welcome';
 
 html {
-	background-image: url('dolla.png');
+	background-image: url('images/dolla.png');
 	background-size: cover;
 	background-position: center;
 	width: 100%;
