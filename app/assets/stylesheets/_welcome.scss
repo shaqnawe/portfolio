@@ -100,29 +100,31 @@ body {
 	}
 
 #main_footer {
-	border-top: 5px solid #93edc7;
+	border-top: 2px solid #93edc7;
+	
 	.copyright {
-		padding: 25px 15px 4px 15px;
+		padding: 15px 15px 15px 15px;
 		float: left;
 		font-size: .9em;
 		margin: 0;
 	}
 	nav {
 		float: right;
+		margin-top: 1em;
 		i {
 			color: black;
-			margin-left: 1em;
-			padding-top: 1.7em;
+			margin-left: 1.5em;
 			&:hover {color: #93edc7;}
 		}
 	}
 }
 
-.fa {
-  font-size: 40px;
-  width: 40px;
+.fa {	
+  font-size: 20px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
+  background: none;
   border-radius: 50%;
 }
 
@@ -131,16 +133,14 @@ body {
 }
 
 .fa-twitter {
-  background: #FCECAE;
   color: white;
 }
 
 .fa-instagram {
-  background: #FCECAE;
   color: white;
 }
 
-.fa-instagram {
-	background: #FCECAE;
+.fa-github {
+	margin-right: 1em;
   	color: white;
 }
