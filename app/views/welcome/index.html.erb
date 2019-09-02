@@ -14,7 +14,10 @@
 		<nav>
 			<a href="/articles/articles"> Articles </a>
 			<a href="#"> Resume </a>
-			<a href="/contacts/new"> Contact </a>
+			<%= link_to "Contact", new_contact_path %>
+			<% if user_signed_in? %>
+			<%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+			<% end %>
 		</nav>
 	</header>
 

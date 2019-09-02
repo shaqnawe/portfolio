@@ -48,6 +48,11 @@ body {
 	display: none;
 }
 
+.notice, .alert {
+	text-align: center;
+    padding: 1em 0;
+}
+
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
