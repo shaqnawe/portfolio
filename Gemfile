@@ -11,6 +11,7 @@ gem 'rails', '~> 5.2.1'
 
 gem 'sassc'
 gem 'sendgrid-ruby'
+gem 'devise', '~> 4.2'
 
 # Use postgresql as the database for Active Record in Production
 group :production do
