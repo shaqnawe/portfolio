@@ -113,14 +113,9 @@ GEM
     msgpack (1.2.4)
     multi_json (1.13.1)
     nio4r (2.3.1)
-<<<<<<< HEAD
-    nokogiri (1.8.4)
-      mini_portile2 (~> 2.3.0)
-    orm_adapter (0.5.0)
-=======
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
->>>>>>> 8dceff5931ac9f05d094fdc4d25bd466a27a148e
+    orm_adapter (0.5.0)
     pg (1.1.4)
     public_suffix (3.0.3)
     puma (3.12.0)
