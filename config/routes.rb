@@ -13,4 +13,5 @@ get '/contacts' => 'contacts#create'
 resources :contacts, only: [:new, :create]
 
 root 'welcome#index'
+get '*path' => redirect('/')
 end
